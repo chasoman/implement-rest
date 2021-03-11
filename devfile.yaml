@@ -15,7 +15,7 @@ components:
       - name: quarkus-development-server
         port: 8080
       - attributes:
-          path: /hello/greeting/che-user
+          path: /hello-resteasy
         name: hello-greeting-endpoint
         port: 8080
     memoryLimit: 512Mi
